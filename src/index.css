@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  /* Premium Dark Mode Palette (ChatGPT style) */
+  --bg-primary: #212121;
+  /* Main chat area background */
+  --bg-secondary: #171717;
+  /* Sidebar background */
+  --bg-tertiary: #2f2f2f;
+  /* User message bubble, hover states */
+
+  --text-primary: #ececec;
+  /* Primary text */
+  --text-secondary: #b4b4b4;
+  /* Secondary text */
+
+  --accent-primary: #10a37f;
+  /* ChatGPT Green */
+  --accent-hover: #1a7f64;
+  /* Darker Green for hover */
+
+  --border-color: rgba(255, 255, 255, 0.1);
+
+  /* Layout & Spacing */
+  --sidebar-width: 260px;
+  --max-content-width: 800px;
+  --header-height: 60px;
+
+  /* Typography */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Transitions & Animation */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  overflow: hidden;
+  /* Prevent body scroll, handle in containers */
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+}
+
+/* Base utility classes for nice scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
