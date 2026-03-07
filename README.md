@@ -1,4 +1,3 @@
-```markdown
 # 💬 AI Chat Assistant
 
 A modern conversational AI interface built with Next.js and TypeScript.
