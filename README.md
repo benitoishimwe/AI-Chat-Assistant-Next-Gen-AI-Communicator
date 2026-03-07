@@ -20,7 +20,9 @@ A modern conversational AI interface built with Next.js and TypeScript.
 - OpenAI/Gemini API
 
 ## 📸 Screenshots
-(Add your screenshots here)
+
+### Dashboard
+![Dashboard Screenshot](./screenshots/ai-chat-assistant.png)
 
 ## 📦 Installation
 ```bash
