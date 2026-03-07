@@ -22,7 +22,7 @@ A modern conversational AI interface built with Next.js and TypeScript.
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard Screenshot](https://github.com/Engr-BenitoIshimwe/AI-Chat-Assistant-Next-Gen-AI-Communicator/blob/main/screenshots/ai-chat-assistant.png?raw=true)
+![Dashboard Screenshot](https://raw.githubusercontent.com/Engr-BenitoIshimwe/AI-Chat-Assistant-Next-Gen-AI-Communicator/main/public/screenshots/ai-chat-assistant.png)
 
 ## 📦 Installation
 ```bash
