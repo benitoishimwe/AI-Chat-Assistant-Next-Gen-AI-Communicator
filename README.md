@@ -1,8 +1,3 @@
-
----
-
-## **3. AI Chat Assistant — README.md**
-
 ```markdown
 # 💬 AI Chat Assistant
 
