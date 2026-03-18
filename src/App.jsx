@@ -4,7 +4,7 @@ import './components/TypingIndicator.css';
 import Sidebar from './components/Sidebar';
 import ChatArea from './components/ChatArea';
 import InputArea from './components/InputArea';
-import { useChatManager } from './hooks/useChatManager';
+import { useChatManager, openAiModels } from './hooks/useChatManager';
 
 function App() {
   const {
@@ -15,7 +15,6 @@ function App() {
     isTyping,
     selectedModel,
     setSelectedModel,
-    openAiModels,
     createNewChat,
     deleteChat,
     handleSendMessage
